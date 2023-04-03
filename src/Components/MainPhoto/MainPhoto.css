@@ -1,0 +1,92 @@
+.photo_img{
+	height: 90vh;
+	width: 100vw;
+	object-fit: cover;
+	image-resolution: from-image;
+	image-resolution: 300dpi;
+	image-resolution: from-image 300dpi;
+	image-resolution: 300dpi snap;
+}
+
+.main_photo{
+		position: relative;
+		z-index: 0;
+		/* opacity: 0.99;  */
+		/* background: black; */
+
+} 
+
+.slogan{
+	position: absolute;
+	right: 10px;
+	top: 200px;
+	font-weight: 700;
+	color: white;
+	font-size: 50px;
+	letter-spacing: 5px;
+	line-height: 1.3;
+	width: 600px;
+	z-index: 2;
+
+	color: #FFFFFF;
+
+text-shadow: #474747 3px 5px 2px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+
+
+
+}
+
+.wrapper{
+     position: absolute;
+	 top: 0;
+	 right: 0;
+	z-index: 1;
+	width: 40%;
+	height: 100%;
+	opacity: 0.8;
+	/* background: black; */
+
+
+
+}
+
+.btn{
+	position: absolute;
+	z-index: 10;
+	right: 347px;
+	top: 360px;
+	display: flex;
+	justify-content: flex-start;
+	border: 1px solid white;
+	background: transparent;
+	color: white;
+	font-size: 15px;
+	padding: 10px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	transition: all 0.5s ease-in;
+	margin-top: 30px;
+}
+
+.btn:hover{
+	
+	border: 1px solid rgb(215, 93, 27);
+}
+
+.electrocar{
+	color: white;
+	background: rgb(215, 93, 27);
+	padding: 10px 0;
+	margin: 15px 88px;
+	border-radius: 10px;
+	font-style: italic;
+    width: 43%;
+	font-size: 40px;
+	letter-spacing: 1px;
+	
+}
+
+

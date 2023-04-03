@@ -1,0 +1,54 @@
+.menu{
+	display: flex;
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	justify-content: space-around;
+	padding: 30px;
+}
+
+.dropdown{
+  border-radius: 0;
+  border: 1px solid rgb(84, 84, 84);
+  padding: 10px 20px;
+  height: 43px;
+  letter-spacing: 0.5px;
+}
+
+.button{
+	padding: 10px 30px;
+	height: 43px;
+	background: none;
+	border: 1px solid rgb(84, 84, 84);
+	letter-spacing: 0.5px;
+	transition: all 0.5s ease-in;
+}
+
+.button:hover{
+	color: #fff;
+	border: 1px solid rgb(215, 93, 27);
+	background:  rgb(215, 93, 27);
+-webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+
+}
+
+.dropdown{
+	transition: all 0.5s ease-in;
+}
+
+.ant-dropdown-menu, .ant-dropdown-menu-item{
+	border-radius: 0 !important;
+}
+
+.dropdown:hover{
+	border: 1px solid rgb(215, 93, 27) !important;
+	color: rgb(215, 93, 27) !important;
+
+-webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+}

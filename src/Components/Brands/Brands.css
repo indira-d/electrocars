@@ -1,0 +1,51 @@
+.brand_box{
+	display: flex;
+	width: 85%;
+	margin: 40px auto;
+	flex-wrap: wrap;
+	padding: 10px auto;
+}
+
+.brand_item{
+	height: 40px;
+	width: 180px;
+	display: flex;
+	border: 1px solid gray;
+	font-size: 11px;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 20px;
+	margin: 10px;
+	transition: all 0.5s ease-in;
+
+}
+
+.brand_item:hover{
+	scale: 1.05;
+    border: 1px solid rgb(215, 93, 27);
+	color:  rgb(215, 93, 27);
+-webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+}
+
+.brand_logo{
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+	margin-right: 10px;
+}
+
+.brand_name{
+	font-weight: 600;
+	letter-spacing: 0.5px;
+}
+
+.h2{
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin: 50px;
+	line-height: 0.8;
+}
