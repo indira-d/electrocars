@@ -8,6 +8,9 @@ import Menu from './Components/Menu/Menu';
 import Performance from './Components/Performance/Performance';
 import Brands from './Components/Brands/Brands';
 import Advantages from './Components/Advantages/Advantages';
+import Footer from './Components/Footer/Footer';
+import Values from './Components/Values/Values';
+import Indicators from './Components/Indicators/Indicators';
 
 function App() {
   return (
@@ -19,6 +22,10 @@ function App() {
        <Performance />
        <Brands />
        <Advantages />
+       <Indicators />
+       <Values />
+
+       <Footer/>
        
     </div>
   );
