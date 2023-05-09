@@ -10,6 +10,15 @@
 
 }
 
+.header2{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	padding: 15px;
+	justify-content: space-between;
+		align-items: center;
+}
+
 .logo{
 	height: 60px;
 
@@ -41,4 +50,25 @@
 
 .ant-dropdown-menu-title-content{
 	font-family: 'Raleway', sans-serif
+}
+
+.search{
+	background: #F4F4F4;
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+	border-radius: 10px;
+		margin: 0 20px;
+	
+}
+
+.search_input{
+	border: none;
+	padding: 5px 10px;
+
+	min-width: 400px;
+	background: #F4F4F4;
+	outline: none;
+	flex: 1;
+	height: 20px;
 }

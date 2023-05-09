@@ -1,9 +1,13 @@
 .brand_box{
-	display: flex;
+	display: grid;
 	width: 85%;
 	margin: 40px auto;
 	flex-wrap: wrap;
 	padding: 10px auto;
+	background: red;
+	grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1rem;
+	justify-content: center;
 }
 
 .brand_item{
@@ -17,6 +21,8 @@
 	padding: 10px 20px;
 	margin: 10px;
 	transition: all 0.5s ease-in;
+	background: gold;
+	
 
 }
 

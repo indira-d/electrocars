@@ -1,10 +1,10 @@
-import React, {useState} from 'react'
+
 import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Space } from 'antd';
-import './Header.css'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 
-const Header = () => {
+const HeaderWithSearch = () => {
 	const [open, setOpen] = useState(false);
 
 	const handleMenuClick = (e) => {
@@ -27,12 +27,15 @@ const Header = () => {
 				key: '2',
 			},
 		]; 
-
   return (
-	<div className='header'>
+	<div className='header2'>
 		<Link to='/' className="header_logo">
 			<img src='/assets/logo.svg' alt='logo' className='logo'/>
 		</Link>
+		<div className="search">
+			<img src='/assets/glass.svg' alt=''/>
+			<input type='text' placeholder='Поиск товаров' className='search_input'/>
+		</div>
 		<div className="header_menu">
 			<div className="menu_item">
 				<Dropdown
@@ -51,7 +54,7 @@ const Header = () => {
 					</a>
 				</Dropdown>
 			</div>
-			<Link to="/catalogue" className="menu_item" style={{textDecoration: 'none'}}>КАТАЛОГ</Link>
+			<div className="menu_item">КАТАЛОГ</div>
 			<div className="menu_item">О НАС</div>
 			<div className="menu_item">КОНТАКТЫ</div>
 		</div>
@@ -59,4 +62,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default HeaderWithSearch

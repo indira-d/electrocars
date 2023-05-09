@@ -1,5 +1,6 @@
 .values{
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .values_img{

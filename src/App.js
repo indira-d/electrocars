@@ -1,32 +1,22 @@
 
 
 import './App.css';
-import Catalogue from './Components/Catalogue/Catalogue';
-import Header from './Components/Header/Header';
-import MainPhoto from './Components/MainPhoto/MainPhoto';
-import Menu from './Components/Menu/Menu';
-import Performance from './Components/Performance/Performance';
-import Brands from './Components/Brands/Brands';
-import Advantages from './Components/Advantages/Advantages';
-import Footer from './Components/Footer/Footer';
-import Values from './Components/Values/Values';
-import Indicators from './Components/Indicators/Indicators';
+
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import CarDetails from './Pages/CarDetails/CarDetails';
+import CataloguePage from './Pages/CataloguePage/CataloguePage';
 
 function App() {
   return (
     <div className="App">
-       <Header />
-       <MainPhoto />
-       <Menu />
-       <Catalogue />
-       <Performance />
-       <Brands />
-       <Advantages />
-       <Indicators />
-       <Values />
-
-       <Footer/>
-       
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/car/:id' element={<CarDetails />} />
+          <Route path='/catalogue' element={<CataloguePage />} />
+        </Routes>
+      </BrowserRouter>   
     </div>
   );
 }

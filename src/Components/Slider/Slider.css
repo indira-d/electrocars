@@ -89,4 +89,11 @@ justify-content: flex-start;
 	
 }
 
+.legend{
+	font-size: 30px !important;
+	background: none !important;
+	color: black !important;
+	
+}
+
 

@@ -9,24 +9,25 @@
 
 .dropdown{
   border-radius: 0;
-  border: 1px solid rgb(84, 84, 84);
-  padding: 10px 20px;
-  height: 43px;
-  letter-spacing: 0.5px;
+  border: 0.5px solid rgb(84, 84, 84);
+  padding: 5px 20px;
+  height: 35px;
+  letter-spacing: 0.8px;
+  font-size: 13px;
 }
 
 .button{
-	padding: 10px 30px;
-	height: 43px;
+	padding: 5px 30px;
+	height: 35px;
 	background: none;
-	border: 1px solid rgb(84, 84, 84);
+	border: 0.5px solid rgb(84, 84, 84);
 	letter-spacing: 0.5px;
 	transition: all 0.5s ease-in;
 }
 
 .button:hover{
 	color: #fff;
-	border: 1px solid rgb(215, 93, 27);
+	border: 0.5px solid rgb(215, 93, 27);
 	background:  rgb(215, 93, 27);
 -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
@@ -44,7 +45,7 @@ box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
 .dropdown:hover{
-	border: 1px solid rgb(215, 93, 27) !important;
+	border: 0.5px solid rgb(215, 93, 27) !important;
 	color: rgb(215, 93, 27) !important;
 
 -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
