@@ -1,11 +1,21 @@
 .performance{
 	display: grid;
-	grid-template-columns: 65vw 1fr;
+	grid-template-columns: 2fr 1fr;
 	margin: 10px 0;
 	background: rgba(0, 0, 0, 0.993);
 	color: #cac7c7;
-
 	
+}
+
+@media screen and (max-width: 900px){
+	.performance{
+	display: grid;
+	grid-template-columns:  1fr;
+	margin: 10px 0;
+	background: rgba(0, 0, 0, 0.993);
+	color: #cac7c7;
+	
+}
 }
 
 .performance_text{

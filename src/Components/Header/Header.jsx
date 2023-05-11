@@ -44,7 +44,7 @@ const Header = () => {
 					open={open}
 					>
 					<a onClick={(e) => e.preventDefault()}>
-						<Space>
+						<Space className='menu_item'>
 							ЭЛЕКТРОМОБИЛИ
 							<DownOutlined />
 						</Space>

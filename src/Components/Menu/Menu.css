@@ -1,11 +1,15 @@
 .menu{
-	display: flex;
-	width: 80%;
+	width: 90%;
 	height: 100%;
 	margin: 0 auto;
-	justify-content: space-around;
+	justify-content: center;
+	gap: 20px;
 	padding: 30px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+
 }
+
 
 .dropdown{
   border-radius: 0;

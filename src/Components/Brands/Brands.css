@@ -4,7 +4,6 @@
 	margin: 40px auto;
 	flex-wrap: wrap;
 	padding: 10px auto;
-	background: red;
 	grid-template-columns: repeat(auto-fit, minmax(220px, auto));
     gap: 1rem;
 	justify-content: center;
@@ -21,9 +20,6 @@
 	padding: 10px 20px;
 	margin: 10px;
 	transition: all 0.5s ease-in;
-	background: gold;
-	
-
 }
 
 .brand_item:hover{
@@ -53,5 +49,5 @@ box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 	font-size: 24px;
 	letter-spacing: 1px;
 	margin: 50px;
-	line-height: 0.8;
+
 }

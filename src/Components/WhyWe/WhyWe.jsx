@@ -7,7 +7,7 @@ const WhyWe = () => {
 	<div>
 		<div className="h2">ПОЧЕМУ ИМЕННО МЫ?</div>
 		<div className='val'>
-				<div className="val_item_text">
+				<div className="val_item">
 					<div className="val_subheader"><SketchOutlined  style={{marginLeft: '15px', fontSize: '18px'}}/> &nbsp; КЛЮЧЕВЫЕ ЦЕННОСТИ</div>
 					<div className="val_text">
 						Мы даём гарантию защиты Ваших интересов на всех этапах выбора и покупки электротранспорта. <br/>
@@ -16,16 +16,16 @@ const WhyWe = () => {
 						Именно этот подход делает нас номером один среди конкурентов по продажам электромобилей.</div>
 				</div>
 				
-				<div className="val_item_img">
+				<div className="val_item">
 					<div className="val_img_block"></div>
 					<img src='/assets/frontcar.svg' className="val_img"></img>
 				</div>
 
-				<div className="val_item_img">
+				<div className="val_item">
 					<div className="val_img_block"></div>
 					<img src='/assets/backcar.svg' className="val_img"></img>
 				</div>
-				<div className="val_item_text">
+				<div className="val_item">
 					<div className="val_subheader"><LikeOutlined  style={{marginLeft: '15px', fontSize: '18px'}}/> &nbsp;ЭКСПЕРНОСТЬ И ОПЫТ</div>
 					<div className="val_text">
 GSR Electrocar- это энергетический узел, который связывает всех нас.

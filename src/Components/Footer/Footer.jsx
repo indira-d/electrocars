@@ -11,7 +11,7 @@ const Footer = () => {
 		<div className='footer_content'>
 	        <div className="map">
 				<iframe className='iframe_map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.018267794073!2d74.59011817600742!3d42.87245857114991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec82748aed9cd%3A0xcdfa333a8172780f!2zMTQ2INGD0LsuINCi0L7QutGC0L7Qs9GD0LvQsCwg0JHQuNGI0LrQtdC6!5e0!3m2!1sru!2skg!4v1683196988399!5m2!1sru!2skg" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
-				</div>
+			</div>
 				
 			<div className="footer_block">
 				<div className="h3" style={{textAlign: 'left', marginLeft: '10px'}}>Контакты</div>

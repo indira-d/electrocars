@@ -18,13 +18,11 @@
 	margin: 50px auto;
 	justify-content: center;
 	flex-wrap: wrap;
-	background: red;
 	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
 	gap: 1rem;
 }
 
 .numbers_item{
-	background: gold;
 	
 }
 

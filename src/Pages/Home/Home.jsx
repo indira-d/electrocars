@@ -11,6 +11,7 @@ import Footer from '../../Components/Footer/Footer'
 import { useDispatch } from 'react-redux'
 import { getCars, getSliderData } from '../../redux/CarSlice'
 import Slider from '../../Components/Slider/Slider'
+import Testimonials from '../../Components/Testimonials/Testimonials'
 
 
 const Home = () => {
@@ -35,6 +36,7 @@ const Home = () => {
        <Indicators />
        {/* <Values /> */}
        <WhyWe/>
+       <Testimonials />
        <Footer/>
 	</div>
   )

@@ -4,7 +4,6 @@ import './Menu.css'
 import { CaretDownOutlined } from '@ant-design/icons';
 
 const Menu = () => {
-
 	const items = [
   {
     key: '1',
@@ -46,14 +45,13 @@ const Menu = () => {
     <Dropdown className='dropdown' menu={{ items }} placement="bottom" arrow={{ pointAtCenter: true }}>
       <Button>Привод <CaretDownOutlined style={{margin: '0 10px'}}/></Button>
     </Dropdown>
-    <br />
     <Dropdown className='dropdown' menu={{ items }} placement="bottom" arrow={{ pointAtCenter: true }}>
       <Button>Год от <CaretDownOutlined style={{margin: '0 10px'}}/></Button>
     </Dropdown>
     <Dropdown className='dropdown' menu={{ items }} placement="bottom" arrow={{ pointAtCenter: true }}>
       <Button>Год до <CaretDownOutlined style={{margin: '0 10px'}}/></Button>
     </Dropdown>
-	<button className='button'> Найти электромобиль</button>
+	<button className='button'> Найти авто</button>
 	</div>
   )
 }
